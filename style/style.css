@@ -44,13 +44,13 @@ main {
 }
 
 /* left side */
-figure {
+#left-side {
     display: flex;
-}
-
-figure > img {
-    width: 100%;
-    margin: 0;
+    justify-content: stretch;
+    background-image: url("/images/image-product-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 448px;
 }
 
 /* right side */
@@ -126,7 +126,7 @@ img {
 @media screen and (max-width: 375px) {
     /* general */
     body {
-        min-height: 850px;
+        min-height: 1100px;
     }
 
     main {
@@ -138,11 +138,8 @@ img {
     }
 
     /* left side */
-    figure > img {
-        content: url("./images/image-product-mobile.jpg");
-        height: 100%;
-        width: 100%;
-        margin: 0;
+    #left-side {
+        background-image: url("/images/image-product-mobile.jpg");
     }
 
     /* right side */
