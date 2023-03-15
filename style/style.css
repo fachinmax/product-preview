@@ -139,7 +139,7 @@ img {
 
     /* left side */
     figure > img {
-        content: url("/images/image-product-mobile.jpg");
+        content: url("./images/image-product-mobile.jpg");
         height: 100%;
         width: 100%;
         margin: 0;
