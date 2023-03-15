@@ -49,7 +49,6 @@ figure {
 }
 
 figure > img {
-    content: url("/images/image-product-desktop.jpg");
     width: 100%;
     margin: 0;
     height: 100%;
